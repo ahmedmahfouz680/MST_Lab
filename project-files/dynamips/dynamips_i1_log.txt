@@ -1,0 +1,26 @@
+Dec 29 13:48:10.258 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 29 13:48:10.258 HYPERVISOR: Started on IP = localhost, TCP port = 56345.
+Dec 29 13:48:10.364 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 29 13:48:10.364 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\user\Downloads\MST\project-files\dynamips 
+Dec 29 13:48:10.520 GENERAL: working_dir=C:\Users\user\Downloads\MST\project-files\dynamips
+Dec 29 13:48:10.520 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\user\Downloads\MST\project-files\dynamips\0793f633-7237-4545-8372-f9739f5dac0b 
+Dec 29 13:48:10.520 GENERAL: working_dir=C:\Users\user\Downloads\MST\project-files\dynamips\0793f633-7237-4545-8372-f9739f5dac0b
+Dec 29 13:48:10.536 HYPERVISOR: exec_cmd: vm create ESW1 1 c3600 
+Dec 29 13:48:10.536 VM: VM ESW1 created.
+Dec 29 13:48:10.536 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW1 5000 
+Dec 29 13:48:10.536 HYPERVISOR: exec_cmd: c3600 get_mac_addr ESW1 
+Dec 29 13:48:10.543 HYPERVISOR: exec_cmd: vm set_disk0 ESW1 1 
+Dec 29 13:48:10.544 HYPERVISOR: exec_cmd: vm set_exec_area ESW1 64 
+Dec 29 13:48:10.547 HYPERVISOR: exec_cmd: vm set_ios ESW1 C:/Users/user/GNS3/images/IOS/c3640-a3js-mz.124-23.image 
+Dec 29 13:48:10.547 HYPERVISOR: exec_cmd: c3600 set_mac_addr ESW1 cc01.7268.0000 
+Dec 29 13:48:10.555 HYPERVISOR: exec_cmd: vm set_nvram ESW1 256 
+Dec 29 13:48:10.555 HYPERVISOR: exec_cmd: vm set_ram ESW1 192 
+Dec 29 13:48:10.555 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Dec 29 13:48:10.555 HYPERVISOR: exec_cmd: vm slot_add_binding ESW1 1 0 NM-16ESW 
+Dec 29 13:48:16.201 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Dec 29 13:48:16.206 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Dec 29 13:48:16.539 HYPERVISOR: exec_cmd: vm delete ESW1 
+Dec 29 13:48:16.539 VM: VM ESW1 destroyed.
+Dec 29 13:48:16.601 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 29 13:48:17.097 HYPERVISOR: Stopped.
+Dec 29 13:48:17.262 GENERAL: reset done.
